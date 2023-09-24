@@ -5,7 +5,6 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.cheezycode.daggermvvm.R
-import com.cheezycode.daggermvvm.models.Product
 
 class CustomAdapter(private val mList: ArrayList<String>) : RecyclerView.Adapter<CustomAdapter.ViewHolder>() {
 

@@ -1,7 +1,8 @@
-package com.cheezycode.daggermvvm.db
+package java.com.cheezycode.daggermvvm.db
 
 import androidx.room.Database
 import androidx.room.RoomDatabase
+import com.cheezycode.daggermvvm.db.FakerDAO
 import com.cheezycode.daggermvvm.models.Product
 
 @Database(entities = [Product::class], version = 1)

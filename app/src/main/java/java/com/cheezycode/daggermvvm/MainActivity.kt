@@ -7,6 +7,7 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.cheezycode.daggermvvm.viewmodels.MainViewModel
+import com.cheezycode.daggermvvm.R
 import dagger.hilt.android.AndroidEntryPoint
 import java.com.cheezycode.daggermvvm.CustomAdapter
 
