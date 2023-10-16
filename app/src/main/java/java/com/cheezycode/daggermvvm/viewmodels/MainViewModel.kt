@@ -18,8 +18,8 @@ class MainViewModel @Inject constructor(private val repository: ProductRepositor
 
     init {
         viewModelScope.launch {
-            delay(4000)
-            repository.getProducts()
+           // repository.getProducts()
+            repository.getNewAPI()
         }
     }
 
